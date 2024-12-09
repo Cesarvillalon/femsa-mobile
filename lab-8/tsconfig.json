@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    // existing options
+    "typeRoots": ["./node_modules/@types", "./src/typings"]
+  }
+}
